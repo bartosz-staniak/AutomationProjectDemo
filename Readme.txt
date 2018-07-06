@@ -1,0 +1,3 @@
+The code relies on Page Object Model along with scenario classes located in proPocztaPages package. The first class represents the login screen which is the point of entry to the webmail application.
+Each page following the point of entry is represented by a separate class which inherits from the previous class.
+The aim of this approach was to minimize the maintenance time by attempting to allow for single point changes. Those changes in turn are immediately accessible to all interested classes.
